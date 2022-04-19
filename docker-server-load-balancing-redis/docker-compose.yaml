@@ -121,6 +121,7 @@ services:
     image: redis
     container_name: redis
     hostname: redis
+    user: root
     ports:
       - "6379:6379"
     networks: 
